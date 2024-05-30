@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="header container-for-header">
+      <!-- logo -->
+      <img src="/logo.svg" alt="easybank" class="header__img" />
+
+      <!-- menu -->
+      <nav>
+        <ul class="header__menu">
+          <li class="header__links"><a href="#">Home</a></li>
+          <li class="header__links"><a href="#">About</a></li>
+          <li class="header__links"><a href="#">Contact</a></li>
+          <li class="header__links"><a href="#">Blog</a></li>
+          <li class="header__links"><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+
+      <!-- button -->
+      <button class="header__btn">Request Invite</button>
+
+      <div class="ham__icon">
+        <i class="bx bx-menu"></i>
+      </div>
+    </section>
+
+    <!-- hero -->
+    <div class="hero__wrapper">
+      <div class="hero__img-wrapper">
+        <img
+          src="./public/bg-intro-mobile.svg"
+          alt="background"
+          class="hero__img"
+        />
+
+        <!-- for desktop -->
+        <img
+          src="./public/bg-intro-desktop.svg"
+          alt="big"
+          class="hero__img-big"
+        />
+
+        <img
+          src="./public/image-mockups.png"
+          alt="main-img"
+          class="hero__img-2"
+        />
+      </div>
+
+      <section class="hero container">
+        <h1 class="hero__title">Next generation digital banking</h1>
+        <p class="hero__description">
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
+        </p>
+
+        <button class="hero__btn">Request Invite</button>
+      </section>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamIcon = document.querySelector(".ham__icon");
+        const headerMenu = document.querySelector(".header__menu");
+
+        hamIcon.addEventListener("click", function () {
+          headerMenu.classList.toggle("active");
+        });
+      });
+    </script>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
