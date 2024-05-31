@@ -15,6 +15,7 @@
   border-radius: 0.3125rem;
   width: 16.25rem;
   transition: transform 0.3s ease;
+  margin: 0 auto;
 }
 
 .blog__img:hover {
