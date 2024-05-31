@@ -23,6 +23,10 @@
   font-size: var(--size-sm);
 }
 
+.base{
+  margin-bottom: 3rem;
+}
+
 .about__img {
   margin: auto;
   margin-bottom: 1rem;
