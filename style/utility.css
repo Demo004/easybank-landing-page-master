@@ -17,10 +17,22 @@
 /* @media (min-width: 1536px) {} */
 
 /* reusable components */
+.primary__btn {
+  background: var(--clr-btn);
+  color: var(--clr-light-greyishblue);
+  padding: .5625rem 1.25rem;
+  border-radius: 16px;
+  font-size: var(--size-sm);
+  transition: all 0.5s ease-in-out;
+}
 
-/* .btn {} */
+.primary__btn:hover {
+  opacity: 0.8;
+  transform: scale(1.03);
+}
 
-/* .btn:hover {} */
+
+
 
 .container {
   width: 100%;

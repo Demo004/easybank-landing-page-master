@@ -17,191 +17,60 @@
     />
   </head>
   <body>
-    <!-- header -->
-    <section class="header container-for-header">
+    <!-- **header**-->
+    <section class="header contain">
       <!-- logo -->
-      <img src="/logo.svg" alt="easybank" class="header__img" />
+      <img src="/logo.svg" alt="easybank" class="header__logo" />
 
-      <!-- menu -->
+      <!-- nav-items -->
       <nav>
         <ul class="header__menu">
-          <li class="header__links"><a href="#">Home</a></li>
-          <li class="header__links"><a href="#">About</a></li>
-          <li class="header__links"><a href="#">Contact</a></li>
-          <li class="header__links"><a href="#">Blog</a></li>
-          <li class="header__links"><a href="#">Careers</a></li>
+          <li class="header__links"><a href="#home">Home</a></li>
+          <li class="header__links"><a href="#about">About</a></li>
+          <li class="header__links"><a href="#contact">Contact</a></li>
+          <li class="header__links"><a href="#blog">Blog</a></li>
+          <li class="header__links"><a href="#careers">Careers</a></li>
         </ul>
       </nav>
 
-      <!-- button -->
+      <!-- header-btn -->
       <button class="header__btn">Request Invite</button>
 
+      <!-- ham-menu -->
       <div class="ham__icon">
         <i class="bx bx-menu"></i>
       </div>
     </section>
 
-    <!-- hero -->
-    <div class="hero__wrapper">
-      <div class="hero__img-wrapper">
-        <img src="/bg-intro-mobile.svg" alt="background" class="hero__img" />
-
-        <!-- for desktop -->
-        <img
-          src="/bg-intro-desktop.svg"
-          alt="big"
-          class="hero__img-big hero-img"
-        />
-
-        <img
-          src="/image-mockups.png"
-          alt="main-img"
-          class="hero__img-2 hero-img"
-        />
-      </div>
-
-      <section class="hero container">
-        <h1 class="hero__title">Next generation digital banking</h1>
-        <p class="hero__description">
-          Take your financial life online. Your Easybank account will be a
-          one-stop-shop for spending, saving, budgeting, investing, and much
-          more.
-        </p>
-
-        <button class="hero__btn">Request Invite</button>
-      </section>
-    </div>
-
-    <!-- about -->
-    <section class="about contain section">
-      <div class="about__head-wrapper">
-        <h2 class="about__title">Why choose Easybank?</h2>
-        <p class="about__description">
-          We leverage Open Banking to turn your bank account into your financial
-          hub. Control your finances like never before.
-        </p>
-      </div>
-
-      <!-- one -->
-      <img src="/icon-online.svg" alt="Online Banking" class="about__img" />
-      <div class="about__mid-wrapper">
-        <h3 class="about__sub-title">Online Banking</h3>
-        <p class="about__sub-description">
-          Our modern web and mobile applications allow you to keep track of your
-          finances wherever you are in the world.
-        </p>
-      </div>
-
-      <!-- two -->
+    <section class="hero-img contain">
+      <!-- mobile -->
       <img
-        src="/icon-budgeting.svg"
-        alt="Simple Budgeting"
-        class="about__img"
+        src="/bg-intro-mobile.svg"
+        alt="background"
+        class="hero-img__mobile"
       />
-      <div class="about__mid-wrapper">
-        <h3 class="about__sub-title">Simple Budgeting</h3>
-        <p class="about__sub-description">
-          See exactly where your money goes each month. Receive notifications
-          when you’re close to hitting your limits.
-        </p>
-      </div>
 
-      <!-- three -->
+      <!-- desktop -->
       <img
-        src="/icon-onboarding.svg"
-        alt="Fast Onboarding"
-        class="about__img"
+        src="./public/bg-intro-desktop.svg"
+        alt="background"
+        class="hero-img__desktop"
       />
-      <div class="about__mid-wrapper">
-        <h3 class="about__sub-title">Fast Onboarding</h3>
-        <p class="about__sub-description">
-          We don’t do branches. Open your account in minutes online and start
-          taking control of your finances right away.
-        </p>
-      </div>
-
-      <!-- four -->
-      <img src="/icon-api.svg" alt="Open API" class="about__img" />
-      <div class="about__mid-wrapper">
-        <h3 class="about__sub-title">Open API</h3>
-        <p class="about__sub-description base">
-          Manage your savings, investments, pension, and much more from one
-          account. Tracking your money has never been easier.
-        </p>
-      </div>
+      <img
+        src="./public/image-mockups.png"
+        alt="mobile"
+        class="hero-img__phone"
+      />
     </section>
 
-    <section class="blog container section">
-      <h2 class="blog__title">Latest Articles</h2>
-      <!-- one -->
-      <div class="blog__wraps-all">
-        <div class="blog__wrapper">
-          <img src="/image-currency.jpg" alt="currency" class="blog__img" />
-          <p class="blog__sm-title">By Claire Robinson</p>
-          <h3 class="blog__sub-title">
-            Receive money in any currency with no fees
-          </h3>
-          <p class="blog__description">
-            The world is getting smaller and we’re becoming more mobile. So why
-            should you be forced to only receive money in a single …
-          </p>
-        </div>
-
-        <!-- two -->
-        <div class="blog__wrapper">
-          <img src="/image-restaurant.jpg" alt="resturant" class="blog__img" />
-          <p class="blog__sm-title">By Wilson Hutton</p>
-          <h3 class="blog__sub-title">
-            Treat yourself without worrying about money
-          </h3>
-          <p class="blog__description">
-            Our simple budgeting feature allows you to separate out your
-            spending and set realistic limits each month. That means you …
-          </p>
-        </div>
-
-        <!-- three -->
-        <div class="blog__wrapper">
-          <img src="./public/image-plane.jpg" alt="plane" class="blog__img" />
-          <p class="blog__sm-title">By Wilson Hutton</p>
-          <h3 class="blog__sub-title">
-            Take your Easybank card wherever you go
-          </h3>
-          <p class="blog__description">
-            We want you to enjoy your travels. This is why we don’t charge any
-            fees on purchases while you’re abroad. We’ll even show you …
-          </p>
-        </div>
-
-        <!-- four -->
-        <div class="blog__wrapper">
-          <img
-            src="./public/image-confetti.jpg"
-            alt="confetti"
-            class="blog__img"
-          />
-          <p class="blog__sm-title">By Claire Robinson</p>
-          <h3 class="blog__sub-title">
-            Our invite-only Beta accounts are now live!
-          </h3>
-          <p class="blog__description">
-            After a lot of hard work by the whole team, we’re excited to launch
-            our closed beta. It’s easy to request an invite through the site ...
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const hamIcon = document.querySelector(".ham__icon");
-        const headerMenu = document.querySelector(".header__menu");
-
-        hamIcon.addEventListener("click", function () {
-          headerMenu.classList.toggle("active");
-        });
-      });
-    </script>
+    <article class="hero container">
+      <h1 class="hero__title">Next generation digital banking</h1>
+      <p class="hero__description">
+        Take your financial life online. Your Easybank account will be a
+        one-stop shop for spending, saving, budgeting, investing, and much more.
+      </p>
+      <button class="primary__btn">Request Invite</button>
+    </article>
 
     <script type="module" src="./src/main.js"></script>
   </body>
