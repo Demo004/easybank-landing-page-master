@@ -14,6 +14,8 @@
   --clr-verylight: #fafafa;
   --clr-white: #ffffff;
 
+  --clr-footer: #2D314D;
+
   /* btn-gradient */
   --clr-btn: linear-gradient(282deg, #31d35c, #28a94a);
 
@@ -47,6 +49,8 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--clr-verylight);
+  overflow-x: hidden;
+
 }
 
 h1,
@@ -56,7 +60,7 @@ h4,
 h5,
 h6 {
   color: var(--clr-darkblue);
-  font-weight: 500;
+  font-weight: 300;
 }
 
 p {
