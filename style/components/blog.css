@@ -48,7 +48,24 @@
 }
 
 /* xs */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {
+  .blog__wrapper {
+    margin-top: 2rem;
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+    gap: 1rem;
+    width: 50%;
+  }
+
+  .blog__gen-wrap {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0rem;
+    place-items: center;
+  }
+}
 
 /* sm */
 /* @media (min-width: 640px) {} */
@@ -58,7 +75,6 @@
 
 /* lg */
 @media (min-width: 1024px) {
-
   .blog__title {
     margin-bottom: 2rem;
     margin-right: auto;

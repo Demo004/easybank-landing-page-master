@@ -44,12 +44,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-X: hidden;
 }
 
 body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--clr-verylight);
-  overflow-x: hidden;
+  overflow-X: hidden;
 
 }
 

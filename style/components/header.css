@@ -57,7 +57,7 @@
 .header__btn {
   background: var(--clr-btn);
   color: var(--clr-light-greyishblue);
-  padding: 9px 1.25rem;
+  padding: .5625rem 1.25rem;
   border-radius: 1rem;
   font-size: var(--size-sm);
   font-weight: 600;
